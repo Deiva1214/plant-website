@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+nav {
+  background-color:black;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: pink;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background-color:gray;
+}
+
+/* Image Links */
+.image-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.image-links div {
+  text-align: center;
+  width: 250px;
+}
+
+.image-links img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  cursor:pointer;
+}
+
+.image-links img:hover {
+  transform: scale(1.05);
+}
+
+.plant-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.plant-item {
+  text-align: center;
+  width: 250px;
+}
+
+.plant-item img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.plant-item img:hover {
+  transform: scale(1.05);
+}
+.seed-gallery{
+  display:flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.seed-item{
+  text-align: center;
+  width: 250px;
+}
+
+.seed-item img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.seed-item img:hover{
+  transform: scale(1.05);
+}
+.pots-gallery{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.pots-item{
+  text-align: center;
+  width: 250px;
+}
+
+.pots-item img{
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.pots-item img:hover{
+  transform: scale(1.05);
+}
